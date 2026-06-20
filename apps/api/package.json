@@ -1,0 +1,30 @@
+{
+  "name": "@qr/api",
+  "version": "1.0.0",
+  "private": true,
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@qr/shared": "workspace:*",
+    "cheerio": "^1.2.0",
+    "cors": "^2.8.6",
+    "express": "^4.22.2",
+    "ipaddr.js": "^2.4.0",
+    "socket.io": "^4.8.3",
+    "tldts": "^7.4.3",
+    "undici": "^8.5.0",
+    "whoiser": "2.0.0-beta.10",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^4.1.9"
+  }
+}
