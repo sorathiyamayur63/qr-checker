@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Surfaces */
+  --bg-base: #FFFFFF;
+  --bg-subtle: #F8FAFC;
+  --bg-muted: #F1F5F9;
+  --border-subtle: #E2E8F0;
+  --border-strong: #CBD5E1;
+
+  /* Text */
+  --text-primary: #0F172A;
+  --text-secondary: #475569;
+  --text-tertiary: #94A3B8;
+
+  /* Brand */
+  --brand: #2563EB;
+  --brand-hover: #1D4ED8;
+  --brand-soft: #EFF6FF;
+  --accent: #0D9488;
+  --accent-soft: #F0FDFA;
+
+  /* Severity ramp — Safe → Critical */
+  --sev-safe: #10B981;       --sev-safe-soft: #ECFDF5;
+  --sev-low: #84CC16;        --sev-low-soft: #F7FEE7;
+  --sev-medium: #F59E0B;     --sev-medium-soft: #FFFBEB;
+  --sev-high: #F97316;       --sev-high-soft: #FFF7ED;
+  --sev-critical: #DC2626;   --sev-critical-soft: #FEF2F2;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(15,23,42,0.04);
+  --shadow-md: 0 4px 12px rgba(15,23,42,0.06);
+  --shadow-lg: 0 12px 32px rgba(15,23,42,0.10);
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-pill: 999px;
+}
+
+body {
+  color: var(--text-primary);
+  background: var(--bg-base);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
