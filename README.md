@@ -16,7 +16,7 @@ The project leverages a modern web stack:
 - **Data Exchange:** A shared typescript library for strict data schema definitions across the mono-repo.
 
 ### Analysis Pipeline
--
+
 Upon submission, the server initiates an asynchronous intelligence pipeline. Rather than forcing the client to await a massive monolithic HTTP response, the API leverages **Socket.IO** to continuously emit findings from 10 distinct modules to the Next.js frontend as they conclude:
 
 1. **Redirect Tracing:** Unrolls any URL shorteners (e.g. `bit.ly`) or tracking chains to find the true destination URL.
