@@ -65,7 +65,7 @@ To build all apps and packages:
 pnpm run build
 ```
 
-To start the production instances:
+start the production instances:
 ```bash
 pnpm run start
 ```
