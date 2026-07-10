@@ -60,7 +60,7 @@ This automatically boots the Express server on `:3001` and Next.js frontend on `
 
 ### Building for Production
 
-To build all apps and packages:--
+To build all apps and packages:-()
 ```bash
 pnpm run build
 ```
