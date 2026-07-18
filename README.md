@@ -38,7 +38,7 @@ Upon submission, the server initiates an asynchronous intelligence pipeline. Rat
 
 ### Local Installation
 
-1. Install dependencies:
+1. Install dependencies:---
 ```bash
 pnpm install
 ```
