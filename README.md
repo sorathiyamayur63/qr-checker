@@ -34,7 +34,7 @@ Upon submission, the server initiates an asynchronous intelligence pipeline. Rat
 ### Prerequisites
 
 - Node.js >= 18
-- pnpm >= 8
+- pnpm >= 8--
 
 ### Local Installation
 
