@@ -15,7 +15,7 @@ The project leverages a modern web stack:/-
 - **Backend:** Express.js REST API feeding into a Socket.IO real-time event pipeline.
 - **Data Exchange:** A shared typescript library for strict data schema definitions across the mono-repo.
 
-### Analysis Pipeline--
+### Analysis Pipeline-
 
 Upon submission, the server initiates an asynchronous intelligence pipeline. Rather than forcing the client to await a massive monolithic HTTP response, the API leverages **Socket.IO** to continuously emit findings from 10 distinct modules to the Next.js frontend as they conclude:
 
