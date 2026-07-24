@@ -8,7 +8,7 @@ This monorepo contains a full-stack Next.js and Express application designed to 
 
 ## Architecture
 
-The project leverages a modern web stack:----'
+The project leverages a modern web stack:--'
 
 - **Monorepo:** Turborepo managing `@qr/api`, `@qr/web`, and `@qr/shared` packages.
 - **Frontend:** Next.js 14 (App Router) using React Server Components, TailwindCSS, and Radix UI primitives.
